@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/Subject.css" />
+    <link rel="stylesheet" href="./styles/nav-bar.css" />
+    <link rel="stylesheet" href="./styles/login.css" />
+    <link rel="stylesheet" href="./styles/nav-bar-responsive.css" />
+    <link rel="stylesheet" href="./styles/home.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/PrésentationC.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./images/LogoIcon.png"
+      type="image/x-icon"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>VIARTEK® FR Site Officiel | Présentation des formules</title>
+    <script async src="./scripts/java.js"></script>
+  </head>
+
+  <body>
+    <!-- ===== NAV BAR ====== -->
+    <header id="header">
+      <nav class="navbar">
+        <a href="index.html" class="logo"
+          ><img
+            class=""
+            src="./images/LogoIcon.png"
+            width="150"
+            height="150"
+            alt="Logo_viartek"
+
+        /></a>
+        <div class="nav-links">
+          <ul>
+            <li class="prem">
+              <a href="PrésentationE.html" onclick="testeBackground(); enable();"
+                >À propos</a
+              >
+            </li>
+            <li>
+              <a href="PresentationConcepteur.html" onclick="testeBackground(); enable();"
+                >Notre histoire</a
+              >
+            </li>
+            <li>
+              <a href="PrésentationC.html" onclick="testeBackground(); enable();"
+                >Nos formules</a
+              >
+            </li>
+
+            <li>
+              <a href="Nous-contacter.html" onclick="testeBackground(); enable(); "
+                >Nous contacter</a
+              >
+            </li>
+          </ul>
+        </div>
+        <img
+          src="images/menu-icon-7.png"
+          alt="menu"
+          id="menu"
+          class="menu"
+          onclick="disable();"
+          loading="lazy"
+        />
+        <img
+          src="./images/close-circle-line.png"
+          alt="close menu"
+          id="test_display2"
+          class="test_display2"
+          style="right: 35px"
+          onclick="enable();"
+        />
+      </nav>
+    </header>
+
+    <!-- ======= MAIN (with diferent section) ======== -->
+    <main class="main" id="#main">
+      <h1 id="title-align">
+        Venez découvrir nos différentes<span id="title-prestation"> Formule !</span>
+      </h1>
+
+      <br />
+
+      <div class="prestation">
+
+        <div class="nos-service-0">
+          <div class="formule-premium">
+            <h1 id="titre-formule-visiteurs">Formule Visiteurs</h1>
+          </div>
+
+          <ul>
+            <li>
+              <span class="coloration-check">✔</span>Accès exclusif à des expositions en ligne, présentant des œuvres générées par des algorithmes artistiques.             
+            </li>
+            <li>
+              <span class="coloration-check">✔</span> Recevoir des newsletters régulières mettant en lumière les dernières tendances.
+            </li>
+          </ul>
+          <p id="formule-visiteur-price">0.00€ Gratuit</p>
+          <input type="button" class="learn-more" value="Choisir un plan" />
+          <p class="annuel-month-price-info">*en facturation annuelle</p>
+        </div>
+
+        <div class="nos-service-1">
+          <div id="formule-basique">
+            <h1 id="titre-formule-basique">Formule Basique</h1>
+          </div>
+          <ul>
+            <li>
+              <span class="coloration-check">✔</span> Tutoriels en ligne pour les débutants en création d'algorithmes artistiques.
+            </li>
+            <li>
+              <span class="coloration-check">✔</span> Accès à une plateforme de partage pour montrer ses propres créations.
+            </li>
+            <li>
+              <span class="coloration-check">✔</span> Invitations à des ateliers virtuels.
+            </li>
+            <li>
+              <span class="coloration-check">✔</span> Invitations au différents événement.
+            </li>
+          </ul>
+          <p id="formule-basique-price">19.99 €*</p>
+          <input type="button" class="learn-more" value="Choisir un plan" />
+          <p class="annuel-month-price-info">*en facturation annuelle</p>
+        </div>
+
+        <div class="nos-service-2">
+          <div class="formule-premium">
+            <h1 id="titre-formule-premium">Formule Premium</h1>
+          </div>
+          <ul>
+            <li>
+              <span class="coloration-check">✔</span> Cours avancés sur la conception d'algorithmes pour des œuvres artistiques.
+            </li>
+            <li>
+              <span class="coloration-check">✔</span> Accès à une communauté exclusive d'artistes algorithmiques.
+            </li>
+            <li>
+              <span class="coloration-check">✔</span> Sessions de critiques d'œuvres avec des experts du domaine.
+            </li>
+            <li>
+              <span class="coloration-check">✔</span> Contiennent aussi les offres de la formule basique.
+            </li>
+          </ul>
+          <p id="formule-premium-price">35.99 €*</p>
+          <input type="button" class="learn-more" value="Choisir un plan"  />
+          <p class="annuel-month-price-info">*en facturation annuelle</p>
+        </div>
+
+        <div class="nos-service-3">
+          <div id="formule-pro">
+            <h1 id="title-formule-pro">Formule Professionnel</h1>
+          </div>
+          <ul>
+            <li>
+              <span class="coloration-check">✔</span> Approfondissez l'utilisation de l'intelligence artificielle dans la création artistique à travers des sessions avancées.
+            </li>
+            <li>
+              <span class="coloration-check">✔</span> Accès à des ressources exclusives, des outils avancés et des techniques avancées pour explorer les possibilités infinies de l'intelligence artificielle.
+            </li>
+            <li>
+              <span class="coloration-check">✔</span> Rencontrez d'autres professionnels, programmeurs et passionnés d'art et d'informatique pour des collaborations potentielles.
+            </li>
+            <li>
+              <span class="coloration-check">✔</span> Contiennent aussi les offres de la formule basique et premium.
+            </li>
+          </ul>
+          <p id="formule-pro-price">49.99 €*</p>
+          <input type="button" class="learn-more" value="Choisir un plan" />
+          <p class="annuel-month-price-info">*en facturation annuelle</p>
+        </div>
+
+        
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container2">
+        <div class="row">
+          <div class="colonne-footer">
+            <h4>Entreprise :</h4>
+            <ul>
+              <li><a href="PrésentationE.html">À propos de nous </a></li>
+              <li><a href="./confidentialite.html">Confidentialité</a></li>
+              <li><a href="PrésentationC.html">Programme </a></li>
+            </ul>
+          </div>
+          <div class="colonne-footer">
+            <h4>Besoin d'aide :</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="colonne-footer">
+            <h4>Outils :</h4>
+            <ul>
+              <li><a href="#">Réserver maintenant</a></li>
+              <li>
+                  <a href="PrésentationC-english.html"
+                    ><img
+                      src="./images/Flag_of_France.svg.png"
+                      width="50"
+                      height="30"
+                      alt="Flag_of_France"
+                  /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="colonne-footer">
+            <h4>Suivez nous :</h4>
+            <div class="social-links">
+              <a
+                href="https://www.facebook.com/votrepagfacebook"
+                target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="https://twitter.com/votrecomptetwitter" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/votrecompteinstagram"
+                target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.youtube.com/votrechaineyoutube"
+                target="_blank"
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a href="https://www.tiktok.com/@votretiktok" target="_blank"
+                ><i class="fab fa-tiktok"></i
+              ></a>
+            </div>
+          </div>
+          <div class="colonne-footer">
+            <h4>Contactez-nous :</h4>
+            <p>Par email : <a href="Nous-contacter.html" style="color: hsl(0, 0%, 70%);">Viartek@Viartek.com</a></p>
+            <p>Ou directement par téléphone : +33 (0)1 23 84 29 03</p>
+          </div>
+        </div>
+      </div>
+      <p class="copyrigth" style="text-align: center; font-weight: bold">
+        © 2023 - 2024 All rights reserved. Viartek
+      </p>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

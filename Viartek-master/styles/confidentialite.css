@@ -1,0 +1,31 @@
+header{
+    padding-bottom: 80px;
+}
+
+.main{
+    margin-top: 90px; 
+    margin-bottom: 50px; 
+}
+
+main{
+    margin-top: 70px; 
+    margin-bottom: 50px; 
+    margin-left: 350px; 
+    margin-right: 350px;
+}
+
+
+@media screen and (max-width: 1023px){
+    main{
+      margin-left: 0;
+      margin-right: 0;
+    }
+}
+
+#font_politique{
+    font-family: "poppins";
+}
+
+span{
+    font-family: "Lemon";
+}

@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/Subject.css" />
+    <link rel="stylesheet" href="./styles/nav-bar.css" />
+    <link rel="stylesheet" href="./styles/nav-bar-responsive.css" />
+    <link rel="stylesheet" href="./styles/home.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/PrésentationE.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./images/LogoIcon.png"
+      type="image/x-icon"
+    />
+
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>VIARTEK® FR Site Officiel | Presentation de l'entreprise</title>
+    <script async src="./scripts/java.js"></script>
+  </head>
+
+  <body>
+    <!-- ===== NAV BAR ====== -->
+    <header id="header">
+      <nav class="navbar">
+        <a href="index.html" class="logo"
+          ><img
+            class=""
+            src="./images/LogoIcon.png"
+            width="150"
+            height="150"
+            alt="Logo_viartek"
+        /></a>
+        <div class="nav-links">
+          <ul>
+            <li class="prem">
+              <a
+                href="PrésentationE.html"
+                onclick="testeBackground();"
+                >À propos</a
+              >
+            </li>
+            <li>
+              <a
+                href="PresentationConcepteur.html"
+                onclick="testeBackground();"
+                >Notre histoire</a
+              >
+            </li>
+            <li>
+              <a
+                href="PrésentationC.html"
+                onclick="testeBackground();"
+                >Nos formules</a
+              >
+            </li>
+            <li>
+              <a
+                href="Nous-contacter.html"
+                onclick="testeBackground();"
+                >Nous contacter</a
+              >
+            </li>
+          </ul>
+        </div>
+        <img
+          src="images/menu-icon-7.png"
+          alt="menu"
+          id="menu"
+          class="menu"
+          onclick="disable();"
+          loading="lazy"
+        />
+        <img
+          src="./images/close-circle-line.png"
+          alt="close menu"
+          id="test_display2"
+          class="test_display2"
+          style="right: 35px"
+          onclick="enable();"
+        />
+      </nav>
+    </header>
+
+    <main class="main" id="#main">
+      <div id="present-our">
+        <div id="align-img">
+          <h1 id="title-our">Qui sommes-nous ?</h1>
+          <p id="para-our">
+            Viartek, c'est une entreprise passionnée qui aime mélanger l'art
+            visuel et la technologie.
+          </p>
+          <p id="descript-our">
+            Chaque année, nous organisons des événements spéciaux où tout le
+            monde, peu importe l'âge ou le niveau, peut montrer sa créativité en
+            programmation
+          </p>
+          <p id="finish-our">
+            Nos valeurs fondamentales incluent l'inclusion, l'apprentissage
+            continu, et la collaboration. Rejoignez-nous dans cette aventure où
+            l'art, la technologie et la passion se rencontrent pour créer des
+            expériences exceptionnelles.
+          </p>
+        </div>
+        <div>
+          <img
+            src="./images/7822.jpg"
+            alt="perso-union"
+            width="500"
+            height="500"
+            id="union"
+            loading="lazy"
+          />
+        </div>
+      </div>
+
+      <div class="background-our">
+        <h1 id="title-histoire">Comment l’aventure a-t-elle commencé ?</h1>
+
+        <section id="notre-histoire">
+          <div id="align-histoire-img">
+            <div>
+              <h2 id="mini-title-histoire">Notre histoire</h2>
+              <p id="text-histoire">
+                Viartek a commencé avec l'idée passionnée de mélanger l'art et
+                la technologie. Depuis nos débuts modestes, nous avons grandi
+                pour devenir une plateforme dynamique qui organise chaque année
+                des événements spéciaux axés sur la créativité informatique.
+                Notre histoire est marquée par notre engagement à inclure tout
+                le monde, quel que soit l'âge ou le niveau. Au fil des ans, nous
+                avons célébré de nombreuses réussites et construit une
+                communauté prospère. Rejoignez-nous dans cette aventure continue
+                où l'art, la technologie et la passion se rejoignent pour créer
+                des expériences exceptionnelles.
+              </p>
+            </div>
+            <div>
+              <img
+                alt="ordianateur-programme"
+                src="./images/contexte-programmation-personne-travaillant-codes-ordinateur.jpg"
+                style="border-radius: 10px"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section id="nos-valeur" style="margin-top: 50px">
+          <div id="align-valeur-img" style="flex-direction: row-reverse">
+            <div>
+              <h2 id="mini-title-valeurs">Nos valeurs</h2>
+              <p id="text-valeurs" style="margin-left: 30px">
+                Chez Viartek, nos valeurs fondamentales guident notre
+                entreprise. Nous croyons en l'inclusion, ce qui signifie que
+                tout le monde est le bienvenu, peu importe l'âge ou le niveau de
+                compétence. La créativité, l'art visuel et la technologie sont
+                au cœur de ce que nous faisons. Nous encourageons
+                l'apprentissage continu et la collaboration. Notre engagement
+                envers ces valeurs crée une communauté dynamique et accueillante
+                où chacun peut s'épanouir.
+              </p>
+            </div>
+            <div>
+              <img
+                alt="ordianateur-programme"
+                src="./images/5878303.jpg"
+                style="border-radius: 10px"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section id="event-annuel" style="margin-top: 50px">
+          <div id="align-event-img">
+            <div>
+              <h2 id="mini-title-event">Nos événements annuel</h2>
+              <p id="text-event" style="margin-left: 30px">
+                Chaque année, Viartek organise des événements spéciaux où tout
+                le monde, des débutants aux experts, peut montrer sa créativité
+                en programmation. Pour seulement 20€, chaque participant peut
+                profiter d'une expérience complète avec tout le matériel fourni
+                sur place. Il y a des récompenses à gagner, mais surtout, c'est
+                une opportunité de découvrir ou d'approfondir sa passion pour la
+                créativité et la programmation. Rejoignez-nous pour ces moments
+                exceptionnels où nous célébrons l'innovation et apprenons
+                ensemble.
+              </p>
+            </div>
+            <div>
+              <img
+                alt="ordianateur-programme"
+                src="./images/gros-plan-personnes-travaillant-ordinateur-portable.jpg"
+                style="border-radius: 10px"
+              />
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div id="contact-us">
+        <p id="contact-us-text">Vous souhaitez en savoir plus sur Viartek ?</p>
+        <a id="contact-us-btn" href="./Nous-contacter.html"
+          ><p>Contactez-nous !</p></a
+        >
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container2">
+        <div class="row">
+          <div class="colonne-footer">
+            <h4>Entreprise :</h4>
+            <ul>
+              <li><a href="PrésentationE.html">À propos de nous </a></li>
+              <li><a href="./confidentialite.html">Confidentialité</a></li>
+              <li><a href="PrésentationC.html">Programme </a></li>
+            </ul>
+          </div>
+          <div class="colonne-footer">
+            <h4>Besoin d'aide :</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="colonne-footer">
+            <h4>Outils :</h4>
+            <ul>
+              <li><a href="PrésentationC.html">Réserver maintenant</a></li>
+              <li>
+                <a href="PrésentationE-english.html"
+                  ><img
+                    src="./images/Flag_of_France.svg.png"
+                    width="50"
+                    height="30"
+                    alt="Flag_of_the_United_Kingdom_"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="colonne-footer">
+            <h4>Suivez nous :</h4>
+            <div class="social-links">
+              <a
+                href="https://www.facebook.com/votrepagfacebook"
+                target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="https://twitter.com/votrecomptetwitter" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/votrecompteinstagram"
+                target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.youtube.com/votrechaineyoutube"
+                target="_blank"
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a href="https://www.tiktok.com/@votretiktok" target="_blank"
+                ><i class="fab fa-tiktok"></i
+              ></a>
+            </div>
+          </div>
+          <div class="colonne-footer">
+            <h4>Contactez-nous :</h4>
+            <p>Par email : <a href="Nous-contacter.html" style="color: hsl(0, 0%, 70%);">Viartek@Viartek.com</a></p>
+            <p>Ou directement par téléphone : +33 (0)1 23 84 29 03</p>
+          </div>
+        </div>
+      </div>
+      <p class="copyrigth" style="text-align: center; font-weight: bold">
+        © 2023 - 2024 All rights reserved. Viartek
+      </p>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,387 @@
+/* ======== MAIN ======== */
+/* ========== HOME ========== */
+.home__cards {
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto;
+  justify-content: center;
+}
+
+.home__container {
+  position: relative;
+  row-gap: 6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home__container2 {
+  position: relative;
+  row-gap: 6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home__data {
+  display: flex;
+  align-items: flex-start;
+  width: calc(100% - 20px);
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.left-content {
+  max-width: 700px;
+  padding-right: 20px;
+  box-sizing: border-box;
+}
+
+.btn-discover {
+  margin-top: 20px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  width: 150px;
+  height: 50px;
+  font-family: "poppins";
+}
+
+.btn-discover:hover {
+  background-color: white;
+  transition: all 0.5s;
+  color: black;
+}
+
+.btn-discover::backdrop {
+  transition: all 1s ease-in-out;
+}
+
+.home__images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home__subtitle {
+  font-size: var(--h3-font-size);
+  margin-bottom: 0.5rem;
+}
+
+.home__title {
+  font-size: 42px;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-family: "Lemon";
+}
+
+.home__description {
+  margin-bottom: 2rem;
+  color: var(--title-color);
+}
+
+.homme__card__p {
+  grid-column: 2;
+  grid-row: 1;
+  font-size: 21px;
+  color: white;
+  width: 38%;
+  margin-left: 65px;
+  
+}
+
+.homme__card__p2 {
+  font-size: 21px;
+  color: white;
+  width: 41%;
+  margin-right: 160px;
+  
+}
+
+.homme__card__p3 {
+  font-size: 21px;
+  color: white;
+  width: 41%;
+  margin-left: 94px;
+  
+}
+
+.homme__card__p4 {
+  font-size: 21px;
+  color: white;
+  width: 40%;
+  margin-right: 115px;
+  
+}
+
+.home__card1 {
+  position: relative;
+  grid-row: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.home__card2 {
+  position: relative;
+  overflow: hidden;
+  grid-row: 2;
+  flex-direction: row-reverse;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home__card3 {
+  position: relative;
+  overflow: hidden;
+  grid-row: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home__card4 {
+  position: relative;
+  overflow: hidden;
+  grid-row: 4;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.home__card-img {
+  transition: transform 0.4s;
+  border-radius: 10px;
+  margin-right: 50px;
+  margin-left: 20px;
+}
+
+.home__card-img {
+  transition: transform 0.4s;
+  border-radius: 10px;
+  margin-right: 50px;
+}
+
+.home__card-shadow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.home_card-title {
+  position: absolute;
+  left: 1rem;
+  bottom: 1rem;
+  font-size: var(--h3-font-size);
+  z-index: 1;
+}
+
+.home__card:hover .home__card-img {
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 1023px) {
+  .home__cards {
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    display: grid;
+    justify-content: center;
+  }
+
+  .home__card1 {
+    grid-row: 1;
+    flex-direction: column;
+  }
+  .home__card2 {
+    grid-row: 2;
+    flex-direction: column;
+  }
+  .home__card3 {
+    grid-row: 3;
+    flex-direction: column;
+  }
+  .home__card4 {
+    grid-row: 4;
+    flex-direction: column;
+  }
+
+  .home__card-img {
+    margin-bottom: 20px;
+  }
+}
+
+/* ================== BUTTON DISCOVER ================== */
+
+.btn-discovers {
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "poppins";
+  border: 2px solid white;
+  color: var(--text-color);
+  border-radius: 10px;
+  margin-top: 20px;
+  width: 150px;
+  height: 50px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn-discovers:hover {
+  background-color: white;
+  color: black;
+  transition: all 1s;
+}
+
+/* ======= ABOUT ========*/
+.about__container {
+  row-gap: 3rem;
+}
+
+.about__data {
+  text-align: center;
+}
+
+.about__description {
+  margin-bottom: 2rem;
+}
+
+.about__image {
+  position: relative;
+  justify-self: center;
+  overflow: hidden;
+}
+
+.about__img {
+  width: 300px;
+  transition: transform 0.4s;
+}
+
+.about__shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+}
+
+.about__image:hover .about__img {
+  transform: scale(1.2);
+}
+
+/* ======= EXPLORE ======= */
+
+.explore {
+  position: relative;
+}
+
+.explore__image {
+  position: absolute;
+  overflow: hidden;
+}
+
+.explore__img {
+  width: 100%;
+  height: 333px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.explore__shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.explore__content {
+  position: relative;
+  padding-top: 16rem;
+  text-align: center;
+  row-gap: 2.5rem;
+}
+
+.explore__user {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5rem;
+}
+
+.explore__perfil {
+  width: 30px;
+  border-radius: 50%;
+}
+
+.explore__name {
+  font-size: var(--small-font-size);
+  color: var(--title-color);
+}
+
+/* ======== SECTION ALGO PERSONNE ======= */
+.track {
+  background: #071c42;
+  width: 550px;
+  margin-right: 50px;
+  border: 2px solid white;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.track-image {
+  background-color: aqua;
+  height: 500px;
+  margin-bottom: 10px;
+  background-size: cover;
+}
+
+.track-1 {
+  background-image: url("../images/Capture1.PNG");
+}
+
+.track-2 {
+  background-image: url("../images/s2.jpg");
+}
+
+.track p {
+  padding: 10px;
+}
+
+.track h2 {
+  padding: 10px;
+  color: white;
+  font-family: "poppins";
+}
+.track a {
+  background-color: #3dcab1;
+  color: white;
+  padding: 15px 20px;
+  display: block;
+  text-align: center;
+  margin: 20px 50px;
+  text-decoration: none;
+}
+
+.track:hover {
+  background-color: #545454;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+}
+
+.sec3 {
+  min-height: 70vh;
+}
+
+#English-index-flag {
+  margin-left: 10px;
+  margin-top: auto;
+  margin-bottom: auto;
+}

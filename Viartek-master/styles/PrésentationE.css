@@ -1,0 +1,144 @@
+header {
+  margin-bottom: 130px;
+}
+
+body {
+  font-family: "poppins";
+}
+
+main {
+  font-family: "poppins";
+}
+
+#present-our {
+  display: flex;
+  justify-content: center;
+  border: 2px solid #3dcab1;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  border-radius: 20px;
+  height: auto;
+  align-items: center;
+}
+
+#align-img {
+  margin-right: 50px;
+  max-width: 560px;
+}
+
+#title-our {
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 40px;
+  font-family: "Lemon";
+}
+
+#para-our {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+#descript-our {
+  margin-top: 0.6em;
+  margin-bottom: 0.6em;
+  font-size: 22px;
+}
+
+#finish-our {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+#union {
+  border-radius: 10px;
+}
+
+.background-our {
+  margin-top: 30px;
+  background-color: #040e27;
+  width: 100%;
+  padding: 20px;
+}
+
+#text-event,
+#text-valeurs,
+#text-histoire {
+  font-family: "poppins";
+  color: white;
+  margin-right: 30px;
+  font-size: 22px;
+}
+
+#align-event-img,
+#align-valeur-img,
+#align-histoire-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title-histoire {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 36px;
+  font-family: "Lemon";
+}
+
+#mini-title-event,
+#mini-title-valeurs,
+#mini-title-histoire {
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
+  font-family: "Lemon";
+  margin-bottom: 20px;
+}
+
+#contact-us {
+  background-color: #3dcab1;
+  width: 100%;
+  border: 0px solid white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+#contact-us {
+  display: flex;
+  justify-content: space-between;
+}
+
+#contact-us-text {
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "Lemon";
+}
+
+#contact-us-btn {
+  color: black;
+  background: none;
+  border-radius: 25px;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "poppins";
+  border: 3px solid white;
+  margin-bottom: 0.6em;
+
+  margin-top: auto;
+}
+
+#contact-us-btn:hover {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #545454;
+  box-shadow: 1px 1px 5px hsl(0, 0%, 70%);
+  transition: 0.4s;
+}

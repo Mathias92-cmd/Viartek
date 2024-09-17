@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/Subject.css" />
+    <link rel="stylesheet" href="./styles/nav-bar.css" />
+    <link rel="stylesheet" href="./styles/login.css" />
+    <link rel="stylesheet" href="./styles/nav-bar-responsive.css" />
+    <link rel="stylesheet" href="./styles/home.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/PresentationConcepteur.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./images/LogoIcon.png"
+      type="image/x-icon"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>VIARTEK® EN Official WEBSITE | Presentation of conceptors</title>
+    <script async src="./scripts/java.js"></script>
+  </head>
+
+  <body>
+    <!-- ===== NAV BAR ====== -->
+    <header id="header">
+      <nav class="navbar">
+        <a href="index-english.html" class="logo"
+          ><img
+            class=""
+            src="./images/LogoIcon.png"
+            width="150"
+            height="150"
+            alt="Logo_viartek"
+
+        /></a>
+        <div class="nav-links">
+          <ul>
+            <li class="prem">
+              <a href="PrésentationE-english.html" onclick="testeBackground(); enable();"
+                >About</a
+              >
+            </li>
+            <li>
+              <a href="PresentationConcepteur-english.html" onclick="testeBackground(); enable();"
+                >Our history</a
+              >
+            </li>
+            <li>
+              <a href="PrésentationC-english.html" onclick="testeBackground(); enable();"
+                >Our formulas</a
+              >
+            </li>
+
+            <li>
+              <a href="Nous-contacter-english.html" onclick="testeBackground(); enable(); "
+                >Contact us </a
+              >
+            </li>
+          </ul>
+        </div>
+        <img
+          src="images/menu-icon-7.png"
+          alt="menu"
+          id="menu"
+          class="menu"
+          onclick="disable();"
+          loading="lazy"
+        />
+        <img
+          src="./images/close-circle-line.png"
+          alt="close menu"
+          id="test_display2"
+          class="test_display2"
+          style="right: 35px"
+          onclick="enable();"
+        />
+      </nav>
+    </header>
+
+    <!-- ======= MAIN (with diferent section) ======== -->
+    <main class="main" id="#main">
+      <a href="index.html"
+        ><img
+          src="images/LogoIcon.png"
+          alt="Logo"
+          style="margin-left: auto; margin-right: auto"
+      /></a>
+
+      <p
+        style="
+          margin-left: auto;
+          margin-right: auto;
+          font-size: 30px;
+          width: 50%;
+          text-align: center;
+        "
+      >
+      Viartek is an events company located in France.<br />Stimulate
+      algorithmic creativity, promote inclusion and inspire
+      learning through enriching events at Viartek
+      </p>
+
+      <br />
+
+      <div class="prestation">
+        <div class="nos-service-0">
+          <div id="formule-premium">
+            <h1 id="titre-formule-visiteurs">Morel Mathias</h1>
+          </div>
+          <img
+            src="./images/Mathias_Morel-removebg-preview.png"
+            alt="concepteurs"
+            width="200"
+            height="200"
+            id="concepteurs-0"
+          />
+
+          <hr id="ligne-horizon-1" />
+
+          <p id="texte-concept-0">
+            Mathias is the co-director of Viartek, he takes care of all
+             Reservation, marketing and economics. He is also responsible for
+             Different plans of the site. But also to contribute to
+             development of the site.
+           </p>
+        </div>
+
+        <div class="nos-service-1">
+          <div id="formule-basique">
+            <h1 id="titre-formule-basique">Cornet Benjamin</h1>
+          </div>
+          <img
+            src="./images/Cornet_Benjamin-removebg-preview.png"
+            alt="concepteurs"
+            style="margin-bottom: 30px"
+            width="200"
+            height="200"
+            id="concepteurs-1"
+          />
+
+          <hr id="ligne-horizon-0" />
+
+          <p id="texte-concept-1">
+            Benjamin is the extremely talented coder at Viartek, he put
+             in place all the design is the different parts of the site. But
+             is also responsible for the design and creation of the different
+             graphic documents.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container2">
+        <div class="row">
+          <div class="colonne-footer">
+            <h4>Business :</h4>
+            <ul>
+              <li><a href="PrésentationE-english.html">About us</a></li>
+              <li><a href="./confidentialite.html">Confidentiality</a></li>
+              <li><a href="PrésentationC-english.html">Program </a></li>
+            </ul>
+          </div>
+          <div class="colonne-footer">
+            <h4>Need help :</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="colonne-footer">
+            <h4>Tools :</h4>
+            <ul>
+              <li><a href="PrésentationC-english.html">Reserve now</a></li>
+              <li>
+                  <a href="PresentationConcepteur.html"
+                    ><img
+                      src="./images/Flag_of_the_United_Kingdom_(3-5).svg.png"
+                      width="50"
+                      height="30"
+                      alt="Flag_of_the_United_Kingdom_"
+                  /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="colonne-footer">
+            <h4>Follow us :</h4>
+            <div class="social-links">
+              <a
+                href="https://www.facebook.com/votrepagfacebook"
+                target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="https://twitter.com/votrecomptetwitter" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/votrecompteinstagram"
+                target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.youtube.com/votrechaineyoutube"
+                target="_blank"
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a href="https://www.tiktok.com/@votretiktok" target="_blank"
+                ><i class="fab fa-tiktok"></i
+              ></a>
+            </div>
+          </div>
+          <div class="colonne-footer">
+            <h4>Contact us  :</h4>
+            <p> by email : <a href="Nous-contacter-english.html" style="color: hsl(0, 0%, 70%);">Viartek@Viartek.com</a></p>
+            <p>Or directly by phone : +33 (0)1 23 84 29 03</p>
+          </div>
+        </div>
+      </div>
+      <p class="copyrigth" style="text-align: center; font-weight: bold">
+        © 2023 - 2024 All rights reserved. Viartek
+      </p>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

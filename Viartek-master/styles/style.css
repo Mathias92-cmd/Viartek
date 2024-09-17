@@ -1,0 +1,282 @@
+:root {
+  --header-height: 3.5rem;
+
+  /* ====== COLORS ======*/
+  --title-color: hsl(0, 0%, 95%);
+  --text-color: hsl(0, 0%, 70%);
+  --text-color-light: hsl(0, 0%, 60%);
+  --body-color: hsl(0, 0%, 95%);
+  --container-color: hsl(0, 0%, 95%);
+
+  /* ====== FONTS ======*/
+  --body-font: Verdana, sans-serif;
+  --second-font: Verdana, sans-serif;
+  --Title-font: Arial, sans-serif;
+  --biggest-font-sizes: 2.75rem;
+  --h1-font-size: 2.75rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: 1.25rem;
+  --small-font-size: 1.25rem;
+  --smaller-font-size: 1.25rem;
+
+  /* ====== FONTS WEIGHT ======*/
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /* ====== z index ======= */
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --bg: 100;
+}
+
+/* ======= RESPOSIVE TYPOGRAPHIE ========*/
+@media screen and (min-width: 1152px) {
+  :root {
+    --biggest-font-size: 5.5;
+    --h1-font-size: 2.5rem;
+    --h2-font-size: 2.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
+  }
+}
+
+/* ======== CSS CLASSES USABLES ========*/
+.blur-background {
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  z-index: 1;
+}
+
+/* ======= BASE ====== */
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  transition: 0.5s;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  overflow: hidden;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+body,
+button,
+input {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  color: var(--text-color);
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif;
+  background-color: #071c42;
+}
+
+button,
+input {
+  outline: none;
+  border: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--title-color);
+  font-family: var(--second-font);
+  font-weight: var(--font-semi-bold);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* ====== REUSABLE CSS CLASSES ========*/
+.container {
+  max-width: 1920px;
+  margin-inline: 1.5rem;
+}
+
+.grid {
+  display: grid;
+  gap: 5.5rem;
+}
+
+.section {
+  padding-block: 1rem 1rem;
+}
+
+.blur-background {
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  transition: filter 0.5s ease;
+}
+
+.test_display {
+  display: none;
+  transition: all 1s ease;
+}
+
+.test_display2 {
+  display: none;
+  transition: all 1s ease;
+}
+
+.fade-in {
+  animation: fade-in 0.5s ease;
+}
+
+header,
+main,
+footer {
+  animation: fade-in 1s ease;
+}
+
+/* ====== BUTTON =======*/
+
+.button {
+  padding: 1.25rem 1.5rem;
+  color: var(--title-color);
+  display: inline-flex;
+  align-items: center;
+  column-gap: 5rem;
+  font-family: var(--second-font);
+  font-weight: var(--font-semi-bold);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+}
+
+.button i {
+  font-size: 1.25rem;
+  font-weight: initial;
+}
+
+.button:hover i {
+  transform: translateX(1.25rem);
+}
+
+/* ======= calendrier =========  */
+.calendrier {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  max-width: 900px;
+}
+
+.calendrier h1 {
+  text-align: center;
+}
+
+.calendrier table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.calendrier table th,
+.calendrier table td {
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.calendrier table th {
+  background-color: #f2f2f2;
+}
+
+.evenement {
+  color: red;
+  cursor: pointer;
+}
+
+.event {
+  color: red;
+  cursor: pointer;
+}
+td:hover {
+  background-color: #f5f5f5;
+}
+
+.active,
+.dot:hover {
+  background-color: transparent;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* ==========  Finish style ========= */
+
+.background-style {
+  background-color: #040e27;
+  width: 500%;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  border-radius: 5px;
+}
+
+.suproverflowx {
+  overflow-x: hidden;
+}
+
+.suproverflowy {
+  overflow-y: hidden;
+}
+
+.scrollable-place {
+  height: 0px;
+}
+
+/* ======== ANIAMTION ========  */
+@keyframes changementCouleur {
+  0% {
+    color: white;
+  }
+  50% {
+    color: hsl(0, 0%, 60%);
+  }
+  100% {
+    color: white;
+  }
+}
+
+.hideBtn {
+  display: none;
+}
+
+.section__title {
+  font-size: 48px;
+  font-family: "Lemon";
+}

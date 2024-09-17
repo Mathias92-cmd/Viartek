@@ -1,0 +1,152 @@
+header {
+  padding-bottom: 150px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #071c42; /* Set your preferred background color */
+}
+
+#formulaire {
+  border: 3px solid white;
+  border-radius: 10px;
+  width: 600px;
+  margin: 0 auto;
+  box-shadow: 1px 1px 5px hsl(0, 0%, 30%);
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  border: none;
+  margin-bottom: 50px;
+  background-color: #071c42;
+}
+
+.nom-prenom {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.nom-prenom div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.nom-prenom,
+.align_radio,
+.align-mail,
+#align-btn {
+  margin-bottom: 20px;
+}
+
+.nom-prenom div,
+.align_radio div,
+.align-mail div {
+  display: flex;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  margin-left: 5px;
+  height: 40px;
+  padding: 8px;
+
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.lab {
+  margin-left: 5px;
+  margin-bottom: 6px;
+  color: #3dcab1;
+  font-weight: bold;
+  display: flex;
+}
+
+.lab-politique {
+  margin-left: 5px;
+  margin-bottom: 6px;
+  color: #3dcab1;
+  font-weight: bold;
+}
+
+#pass {
+  margin-bottom: 35px;
+  border: solid 2px #cccccc;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.align_radio {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.radio div {
+  align-items: center;
+  color: #3dcab1;
+  display: flex;
+  flex-direction: column;
+}
+
+#title-formulaire {
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+  color: #3dcab1; 
+  font-family: "Lemon";
+
+}
+
+hr {
+  border: 1px solid white;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  border: none;
+}
+
+#align-btn {
+  text-align: center;
+}
+
+.btn-valid,
+.btn-reset {
+  background: none;
+  border: 2px solid white;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.btn-valid:hover {
+  background-color: white;
+  border-radius: 5px;
+  color: green;
+  transition: all 0.4s;
+  box-shadow: 1px 1px 5px hsl(0, 0%, 70%);
+}
+
+.btn-reset:hover {
+  background-color: white;
+  transition: all 0.4s;
+  color: red;
+  box-shadow: 1px 1px 5px hsl(0, 0%, 70%);
+}

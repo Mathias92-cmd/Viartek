@@ -1,0 +1,250 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #071C42;
+    font-family: "poppins";
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+section {
+    min-height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.card2 {
+    background: white;
+    width: 400px;
+    margin: 10px;
+}
+
+.card-image {
+    background-color: aqua;
+    height: 250px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.car-1{
+    background-image: url("images/img.jpg");
+}
+
+.car-2{
+    background-image: url("images/img.jpg");
+}
+
+.car-3{
+    background-image: url("images/img.jpg");
+}
+
+.card2 p {
+    padding: 10px;
+}
+
+.card2 h2{
+    padding: 10px;
+    color: grey;
+}
+.card2 a {
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.card2:hover{
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.info__card{
+    border: 2px solid white;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+    width: 80%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    background: #071C42;
+    color: white;
+    text-align: center;
+    padding: 2em;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+
+.image__profile{
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.profile__name{
+    font-size: 2rem;
+    line-height: 1.1;
+    letter-spacing: 1px;
+}
+
+.profile__name::after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 2em;
+    background: #5bcbf0;
+    margin: 0.7em auto 0.5em;
+    opacity: 0.35;
+}
+
+.profile__position {
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    letter-spacing: 3px;
+    color: #3DCAB1;
+    margin-bottom: 2em;
+    font-family: "poppins";
+}
+
+.profile-body {
+    font-weight: 300;
+    opacity: 0.8;
+    margin-bottom: 0;
+}
+
+
+.tutu {
+    display: flex;
+    min-height: 60vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 125px;
+    margin: 0 auto;
+}
+
+.social-li{
+    color: #5bcbf0;
+    opacity: 0.5;
+    font-size: 1.12rem;
+}
+
+.people {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 48px;
+    font-family: "Lemon";
+}
+
+.social-li:hover,
+.social-li:focus {
+    opacity: 1;
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+/* ======= Section algo des gens =========== */
+
+.track {
+    background: #071C42;
+    width: 550px;
+    margin-right: 50px;
+}
+
+.track-image {
+    background-color: aqua;
+    height: 500px;
+    margin-bottom: 10px;
+    background-size: cover;
+}
+
+.track-1{
+    background-image: url("../images/Capture1.PNG");
+}
+
+.track-2{
+    background-image: url("../images/s2.jpg");
+}
+
+.track p {
+    padding: 10px;
+}
+
+.track h2{
+    padding: 10px;
+    color: white;
+}
+.track a {
+    background-color: #3DCAB1;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.track:hover{
+    background-color: #545454;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.sec3{
+    min-height: 70vh;
+}
+
+@media screen and (max-width:600px){
+    .profile__container{
+        flex-direction: row;
+        
+    }
+
+    .profile__main{
+        text-align: left;
+        margin-left: 2em;
+    }
+
+    .profile__name::after{
+        margin-left: 0;
+    }
+
+
+}

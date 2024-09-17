@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/Subject.css" />
+    <link rel="stylesheet" href="./styles/nav-bar.css" />
+    <link rel="stylesheet" href="./styles/login.css" />
+    <link rel="stylesheet" href="./styles/nav-bar-responsive.css" />
+    <link rel="stylesheet" href="./styles/home.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./images/LogoIcon.png"
+      type="image/x-icon"
+    />
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>VIARTEK® EN Official WEBSITE | Homepage</title>
+    <script async src="./scripts/java.js"></script>
+  </head>
+
+  <body>
+    <!-- ===== NAV BAR ====== -->
+    <header id="header">
+      <nav class="navbar">
+        <a href="index-english.html" class="logo"
+          ><img
+            class=""
+            src="./images/LogoIcon.png"
+            width="150"
+            height="150"
+            alt="Logo_viartek"
+
+        /></a>
+        <div class="nav-links">
+          <ul>
+            <li class="prem">
+              <a href="PrésentationE-english.html" onclick="testeBackground(); enable();"
+                >About</a
+              >
+            </li>
+            <li>
+              <a href="PresentationConcepteur-english.html" onclick="testeBackground(); enable();"
+                >Our history</a
+              >
+            </li>
+            <li>
+              <a href="PrésentationC-english.html" onclick="testeBackground(); enable();"
+                >Our formulas</a
+              >
+            </li>
+
+            <li>
+              <a href="Nous-contacter-english.html" onclick="testeBackground(); enable(); "
+                >Contact us </a
+              >
+            </li>
+          </ul>
+        </div>
+        <img
+          src="images/menu-icon-7.png"
+          alt="menu"
+          id="menu"
+          class="menu"
+          onclick="disable();"
+          loading="lazy"
+        />
+        <img
+          src="./images/close-circle-line.png"
+          alt="close menu"
+          id="test_display2"
+          class="test_display2"
+          style="right: 35px"
+          onclick="enable();"
+        />
+      </nav>
+    </header>
+
+    <!-- ======= MAIN (with diferent section) ======== -->
+    <main class="main" id="#main">
+      <section class="home section">
+        <div class="home__shadow"></div>
+        <!-- TITLE OF THE SITE -->
+        <div class="home__container container">
+          <div class="home__data">
+            <div
+              class="align"
+              style="
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+              "
+            >
+              <div class="left-content">
+                <h1 class="home__title" style="text-align: left">
+                  Take part in the Virtual Festival of <br />
+                   Algorithmic Creativity
+                </h1>
+                <!-- WE NEED A DESCRIPTION-->
+                <p>
+                  Welcome to the “Virtual Festival of Algorithmic Creativity”
+                   – a celebration where art meets computing to create
+                   a world of innovation and expression. Explore the universe
+                   fascinating where artists push the boundaries of
+                   creativity using computer algorithms to
+                   bringing unique and surprising works to life.
+                </p>
+                <a href="#discover" class="btn-discovers">Discover</a>
+              </div>
+            </div>
+            <div class="home__images">
+              <img
+                src="./images/971.jpg"
+                width="500"
+                height="500"
+                style="border-radius: 10px; margin-left: 30px"
+                alt="Presentation"
+              />
+            </div>
+          </div>
+
+          <form class="background-style">
+            <h1
+              style="
+                text-align: center;
+                font-size: 32px;
+                margin-bottom: 15px;
+                font-family: 'poppins';
+                font-weight: bold;
+                animation: changementCouleur 10s linear infinite;
+                margin-left: 80px;
+                margin-right: 80px;
+              "
+              id="discover"
+            >
+            Discover the Magical Art of Algorithms: Why You Should
+            Join our Virtual Festival!
+            </h1>
+            <div class="home__cards grid" id="home">
+              <article class="home__card1">
+                <img
+                  src="./images/compressed_img-WfoUqggD5pKYGt6F9ZWoAXHl.jpg"
+                  width="700"
+                  height="500"
+                  alt="home image"
+                  class="home__card-img"
+                />
+                <p class="homme__card__p">
+                  The festival provides a unique platform to explore the
+                   convergence between <strong>art</strong> and
+                   <strong>technology</strong>. Participants will have
+                   the opportunity to push the boundaries of creativity by
+                   using <strong>computer algorithms</strong>to
+                   generate artistic works. This opens the way to
+                   new forms of artistic expression that merge
+                   human imagination with the infinite potential of
+                   algorithms. 🎨💻
+                 </p>
+              </article>
+
+              <article class="home__card2">
+                <!-- texte en premier-->
+                <img
+                  src="./images/4949146.jpg"
+                  loading="lazy"
+                  alt="home image"
+                  class="home__card-img"
+                  width="500"
+                  height="500"
+                />
+                <p class="homme__card__p2">
+                  Participating in this event allows
+                   <strong>artists</strong> to present their creations
+                   algorithms to an interested public. It's a chance to
+                   share <strong>unique and innovative works</strong>,
+                   by exposing the creative power of algorithms
+                   computers. Participants will have the opportunity to generate
+                   <strong>discussions</strong> on the
+                   <strong>manner</strong> in which
+                   <strong>technology</strong> can be integrated into the
+                   creative process.
+                </p>
+              </article>
+
+              <article class="home__card3">
+                <!-- texte en deuxiemme-->
+                <img
+                  src="./images/6598236.jpg"
+                  alt="home image"
+                  class="home__card-img"
+                  width="500"
+                  height="500"
+                />
+                <p class="homme__card__p3">
+                  Real-time artistic performances, created by
+                   computer programs, provide
+                   <strong>immersive and interactive experience</strong>. THE
+                   participants will have the opportunity to discover works that
+                   evolve and react in real time, creating an experience
+                   dynamic and engaging artistic. This can open
+                   <strong>new perspectives</strong> on the relationship between
+                   art, technology and the spectator.
+                </p>
+              </article>
+
+              <article class="home__card4">
+                <!-- texte en troisieme-->
+                <img
+                  src="./images/equipe-travaillant-projet-animation.jpg"
+                  alt="home image"
+                  class="home__card-img"
+                  width="500"
+                  height="500"
+                />
+                <p class="homme__card__p4">
+                  Participate in an event focused on algorithmic creativity
+                   offers a unique networking opportunity. The participants
+                   will be able to meet other
+                   <strong>
+                     artists, programmers, and art enthusiasts and
+                     computer science
+                   </strong>
+                   . This could lead to unexpected collaborations,
+                   fruitful exchanges of ideas and the creation of communities
+                   dedicated to the intersection between artistic creativity and
+                   computing.
+                </p>
+              </article>
+            </div>
+          </form>
+        </div>
+      </section>
+      <br />
+
+      <h1 style="text-align: center; font-size: 52px; font-weight: bold">
+        Book now for upcoming events
+       </h1>
+      <div class="calendrier" id="calendrier">
+        <h1>December 2023</h1>
+        <table>
+          <thead>
+            <tr>
+              <th>L</th>
+              <th>M</th>
+              <th>M</th>
+              <th>J</th>
+              <th>V</th>
+              <th>S</th>
+              <th>D</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>7</td>
+              <td>8</td>
+              <td>9</td>
+              <td>10</td>
+              <td>11</td>
+              <td>12</td>
+            </tr>
+            <tr>
+              <td>13</td>
+              <td class="evenement">
+                <a href="#home" style="color: red">14</a>
+              </td>
+              <td>15</td>
+              <td>16</td>
+              <td>17</td>
+              <td>18</td>
+              <td>19</td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td>21</td>
+              <td>22</td>
+              <td>23</td>
+              <td>24</td>
+              <td class="evenement">25</td>
+              <td>26</td>
+            </tr>
+            <tr>
+              <td>27</td>
+              <td>28</td>
+              <td>29</td>
+              <td>30</td>
+              <td>31</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+        <h1>January 2024</h1>
+        <table>
+          <thead>
+            <tr>
+              <th>L</th>
+              <th>M</th>
+              <th>M</th>
+              <th>J</th>
+              <th>V</th>
+              <th>S</th>
+              <th>D</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>1</td>
+              <td>2</td>
+              <td>3</td>
+              <td>4</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>7</td>
+              <td class="event">8</td>
+              <td>9</td>
+              <td>10</td>
+              <td>11</td>
+              <td>12</td>
+            </tr>
+            <tr>
+              <td>13</td>
+              <td>14</td>
+              <td>15</td>
+              <td>16</td>
+              <td>17</td>
+              <td>18</td>
+              <td>19</td>
+            </tr>
+            <tr>
+              <td>20</td>
+              <td>21</td>
+              <td>22</td>
+              <td>23</td>
+              <td>24</td>
+              <td>25</td>
+              <td>26</td>
+            </tr>
+            <tr>
+              <td class="event">27</td>
+              <td>28</td>
+              <td>29</td>
+              <td>30</td>
+              <td>31</td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <section class="sec3" id="about">
+        <div class="container">
+          <div class="about__container container grid">
+            <div class="about__data">
+              <h2 class="section__title">Learn more about algorithms</h2>
+
+              <p class="about__description">
+                Here are the different events that have already taken place over the years
+                 previous
+              </p>
+
+              <div class="container">
+                <div class="track">
+                  <div class="track-image track-1"></div>
+                  <h2>Last year's topic</h2>
+                  <p>
+                    Create a 3D object regardless of the shape, you are
+                     free to do what you want and above all don't forget
+                     most importantly, have fun with your creation.
+                  </p>
+                  <a href="#">Learn more</a>
+                </div>
+                <div class="track">
+                  <div class="track-image track-2"></div>
+                  <h2>Second subject</h2>
+                  <p>
+                    You must represent a card from a basic card game
+                     your way. Leave room for your imagination to create
+                     the most beautiful card possible, you have 3 hours
+                  </p>
+                  <a href="#">Learn more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <h1 class="people">What People Think About Us</h1>
+
+      <section class="tutu">
+        <div class="container">
+          <div class="info__card">
+            <div class="profile__siderbar">
+              <img
+                class="image__profile"
+                src="images/blonds-affaires-heureuse-expression-removebg-preview(1).png"
+                alt="blond heureux"
+                width="200"
+              />
+              <ul class="social-list">
+                <li class="social-item">
+                  <a
+                    aria-label="Twitter"
+                    href="https://twitter.com/votrecomptetwitter"
+                    target="_blank"
+                    ><i class="fab fa-twitter" style="color: #3dcab1"></i
+                  ></a>
+                </li>
+                <li class="social-item">
+                  <a
+                    aria-label="Instagram"
+                    href="https://www.instagram.com/votrecompteinstagram"
+                    target="_blank"
+                    ><i class="fab fa-instagram" style="color: #3dcab1"></i
+                  ></a>
+                </li>
+                <li class="social-item">
+                  <a
+                    aria-label="Facebook"
+                    href="https://www.facebook.com/votrepagfacebook"
+                    target="_blank"
+                    ><i class="fab fa-facebook" style="color: #3dcab1"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="profile__main">
+              <h2 class="profile__name">Léon Lejeune</h2>
+              <p class="profile__position">Beekeeper</p>
+              <p class="profile-body">
+                Léon Lejeune: Well, I must say that it was an experience
+                 unique ! I don't understand much about all these machines
+                 and these codes, but it was fascinating to see how the
+                 artists can use these computer tricks to create
+                 art.
+              </p>
+            </div>
+          </div>
+
+          <div class="info__card">
+            <div class="profile__siderbar">
+              <img
+                class="image__profile"
+                src="images/Race_blanche.png"
+                alt=""
+                width="200"
+              />
+              <ul class="social-list">
+                <li class="social-item">
+                  <a
+                    aria-label="Twitter"
+                    href="https://twitter.com/votrecomptetwitter"
+                    target="_blank"
+                    ><i class="fab fa-twitter" style="color: #3dcab1"></i
+                  ></a>
+                </li>
+                <li class="social-item">
+                  <a
+                    aria-label="Instagram"
+                    href="https://www.instagram.com/votrecompteinstagram"
+                    target="_blank"
+                    ><i class="fab fa-instagram" style="color: #3dcab1"></i
+                  ></a>
+                </li>
+                <li class="social-item">
+                  <a
+                    aria-label="Facebook"
+                    href="https://www.facebook.com/votrepagfacebook"
+                    target="_blank"
+                    ><i class="fab fa-facebook" style="color: #3dcab1"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="profile__main">
+              <h2 class="profile__name">Curtis Phelps</h2>
+              <p class="profile__position">Computer scientist</p>
+              <p class="profile-body">
+                Curtis Phelps: "Wow, this event was a real
+                 revelation for me as a computer scientist. See how the
+                 programming can be used in an artistic way
+                 opened new horizons. The artists here have pushed back
+                 limits of digital creativity. I already have lots of ideas
+                 head to integrate some of these techniques into my projects
+                 of development. It's the perfect mix between the logic of
+                 code and artistic expression. I am delighted to have participated
+                 and excited to see how this merger evolves in the future
+                 !”
+              </p>
+            </div>
+          </div>
+
+          <div class="info__card">
+            <div class="profile__siderbar">
+              <img
+                class="image__profile"
+                src="images/etudiante-ordinateur-portable-dans-ses-mains-removebg-preview.png"
+                alt=""
+                width="200"
+              />
+              <ul class="social-list">
+                <li class="social-item">
+                  <a
+                    aria-label="Twitter"
+                    href="https://twitter.com/votrecomptetwitter"
+                    target="_blank"
+                    ><i class="fab fa-twitter" style="color: #3dcab1"></i
+                  ></a>
+                </li>
+                <li class="social-item">
+                  <a
+                    aria-label="Instagram"
+                    href="https://www.instagram.com/votrecompteinstagram"
+                    target="_blank"
+                    ><i class="fab fa-instagram" style="color: #3dcab1"></i
+                  ></a>
+                </li>
+                <li class="social-item">
+                  <a
+                    aria-label="Facebook"
+                    href="https://www.facebook.com/votrepagfacebook"
+                    target="_blank"
+                    ><i class="fab fa-facebook" style="color: #3dcab1"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="profile__main">
+              <h2 class="profile__name">Clinton Mendoza</h2>
+              <p class="profile__position">Student</p>
+              <p class="profile-body">
+                Mendoza is a student who participated in the event in
+                 presenting an interactive installation. She exclaims:
+                 "It was incredible to see how the artistic programming
+                 can merge with traditional art. I met some
+                 creative and inspiring minds here. Thank you for giving me this
+                 unique opportunity!”
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container2">
+        <div class="row">
+          <div class="colonne-footer">
+            <h4>Business :</h4>
+            <ul>
+              <li><a href="#">About us</a></li>
+              <li><a href="./confidentialite.html">Confidentiality</a></li>
+              <li><a href="#">Program </a></li>
+            </ul>
+          </div>
+          <div class="colonne-footer">
+            <h4>Need help :</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="colonne-footer">
+            <h4>Tools :</h4>
+            <ul>
+              <li><a href="#">Reserve now</a></li>
+              <li>
+                  <a href="index.html"
+                    ><img
+                      src="./images/Flag_of_the_United_Kingdom_(3-5).svg.png"
+                      width="50"
+                      height="30"
+                      alt="Flag_of_the_United_Kingdom_"
+                  /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="colonne-footer">
+            <h4>Follow us :</h4>
+            <div class="social-links">
+              <a
+                href="https://www.facebook.com/votrepagfacebook"
+                target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="https://twitter.com/votrecomptetwitter" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/votrecompteinstagram"
+                target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.youtube.com/votrechaineyoutube"
+                target="_blank"
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a href="https://www.tiktok.com/@votretiktok" target="_blank"
+                ><i class="fab fa-tiktok"></i
+              ></a>
+            </div>
+          </div>
+          <div class="colonne-footer">
+            <h4>Contact us  :</h4>
+            <p> by email : Viartek@Viartek.com</p>
+            <p>Or directly by phone : +33 (0)1 23 84 29 03</p>
+          </div>
+        </div>
+      </div>
+      <p class="copyrigth" style="text-align: center; font-weight: bold">
+        © 2023 - 2024 All rights reserved. Viartek
+      </p>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
+

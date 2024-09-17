@@ -1,0 +1,115 @@
+header {
+  padding-bottom: 180px;
+}
+
+body {
+  font-family: "poppins";
+}
+
+#title-align {
+  text-align: center;
+  font-weight: bold;
+  font-size: 52px;
+}
+
+.prestation {
+  display: flex;
+  justify-content: center;
+}
+
+.nos-service-0,
+.nos-service-1 {
+  border-radius: 5px;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 1px 4px white;
+  width: 30%;
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 1023px) {
+  .prestation {
+    display: flex;
+  }
+}
+
+#formule-basique {
+  padding-bottom: 30px;
+  border-top: 0px solid white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+}
+
+#titre-formule-basique,
+#titre-formule-visiteurs {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-family: "poppins";
+}
+
+#coloration-check {
+  color: white;
+}
+
+#formule-basique-price {
+  margin-top: 13.5em;
+  font-weight: bold;
+  color: white;
+}
+
+#annuel-month-price-info {
+  color: #545454;
+  font-weight: bold;
+  font-size: 12px;
+  opacity: 80%;
+}
+
+#formule-visiteur-price {
+  margin-top: 16.6em;
+  font-weight: bold;
+  color: white;
+}
+
+#formule-premium-price {
+  margin-top: 14.1em;
+  font-weight: bold;
+  color: white;
+}
+
+#formule-pro-price {
+  font-weight: bold;
+  color: white;
+  margin-top: 8.2em;
+}
+
+#texte-concept-0 {
+  margin-top: 10px;
+  font-family: "poppins";
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#texte-concept-1 {
+  font-family: "poppins";
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#ligne-horizon-0 {
+  color: white;
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+#ligne-horizon-1 {
+  color: white;
+  width: 80%;
+  margin-top: 10px;
+}
